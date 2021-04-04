@@ -1,9 +1,9 @@
 
 ## 提醒： 滥用可能导致账户被删除！！！ 
 
-### 以下内容是根据原作者项目说明进行相应修改，方便初学者小白们理解！
 
-### 详细视频教程YouTube：https://youtu.be/dE730hVgmUs
+
+
    
 * 原作者的Heroku脚本为多协议共存脚本，该项目使用[xray](https://github.com/XTLS/Xray-core)+caddy，同时部署通过ws传输模式的vmess vless trojan-go shadowsocks socks等协议，默认已配置好伪装网站。  
 
@@ -48,7 +48,7 @@
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
 
-# CloudFlare Workers反代代码（支持VLESS\VMESS\Trojan-Go的WS模式，可分别用两个账号的应用程序名，单双号天分别执行，那一个月就有550+550小时）
+# CloudFlare Workers（支持VLESS\VMESS\Trojan-Go的WS模式，可分别用两个账号的应用程序名，单双号天分别执行，那一个月就有550+550小时）
 
 ```
 const SingleDay = '应用程序名1.herokuapp.com'
