@@ -27,7 +27,7 @@
 * 底层传输安全：tls
 * 跳过证书验证：false
 
-## 2：Trojan-Go+ws
+ 2：Trojan-Go+ws
 
 * 服务器地址：自选ip（如：icook.tw）
 * 端口：443
@@ -37,7 +37,7 @@
 * SNI地址：****.workers.dev(CF Workers反代地址)
 * 伪装host：****.workers.dev(CF Workers反代地址)
 
-## 3：Shadowsocks+ws+tls
+ 3：Shadowsocks+ws+tls
 
 * 服务器地址: 应用程序名.herokuapp.com
 * 端口: 443
@@ -46,7 +46,7 @@
 * 插件选项: tls;host=应用程序名.herokuapp.com;path=/自定义UUID码-ss
 
 
-# CloudFlare Workers（支持VLESS\VMESS\Trojan-Go的WS模式，可分别用两个账号的应用程序名，单双号天分别执行，那一个月就有550+550小时）
+ CloudFlare Workers（支持VLESS\VMESS\Trojan-Go的WS模式，可分别用两个账号的应用程序名，单双号天分别执行，那一个月就有550+550小时）
 
 ```
 const SingleDay = '应用程序名1.herokuapp.com'
